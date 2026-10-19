@@ -1,0 +1,19 @@
+{
+  "name": "ay-community-bot",
+  "version": "1.0.0",
+  "description": "بوت إدارة ودعم فني وتقديمات لسيرفر AY COMMUNITY",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": "22.x"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7"
+  }
+}
